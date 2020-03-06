@@ -7,8 +7,8 @@ This a template to quickly set up a flask server with a Vue frontend app.
 ## Instructions
 
 1. Clone this repository
-2. Go into the client folder and install Vue dependencies with `npm install -d`
-3. ...Profit
+2. Run the `one_time_setup.sh` script
+3. ... Profit
 
 ## Details
 
