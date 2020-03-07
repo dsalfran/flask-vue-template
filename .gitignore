@@ -22,3 +22,5 @@ yarn-error.log*
 
 # Python stuff
 __pycache__
+
+one_time_setup.sh
