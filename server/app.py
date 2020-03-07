@@ -13,6 +13,8 @@ from flask_cors import CORS
 # ---------------------------------------------
 # Local dependencies
 # ---------------------------------------------
+from utils.logger import logger
+
 # ---------------------------------------------
 
 app = Flask(__name__, static_folder="../dist", template_folder="../dist")
@@ -29,6 +31,6 @@ def serve(path):
 
 
 if __name__ == "__main__":
-    print("Starting Server")
+    logger.info("Starting Server")
     app.run(use_reloader=True, port=5000, threaded=True)
-    print("App started")
+    logger.info("App started")
